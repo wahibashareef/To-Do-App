@@ -1,16 +1,29 @@
 # to_do_app
 
-A new Flutter project.
+The To-Do App is a  Flutter-based task management application that allows users to add, manage, and delete their daily tasks. 
 
-## Getting Started
+Technologies used:
+- Flutter: Framework for building app.
+- Google Fonts: For custom typography.
+- SharedPreferences: To store tasks persistently.
+- Dart: A programming language for Flutter development.
 
-This project is a starting point for a Flutter application.
+  How to Run the Project:
+  1. Install Flutter.
+  2. Install an IDE such as Visual Studio Code or Android Studio.
+ 
+  Steps to run:
+  1. Clone this repository.
+     https://github.com/wahibashareef/To-Do-App
+  2. Navigate to the project directory.
+     cd to_do_app
+  3. Fetch dependencies.
+     flutter pub get
+  4. Run the app
+     flutter run
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  Customization:
+  1. You can toggle between dark mode and light mode by modifying the theme property in the main.dart.
+  2. This app uses Hammersmith One font. To use a different font, update the GoogleFonts reference in the main.dart.
+     
+     
